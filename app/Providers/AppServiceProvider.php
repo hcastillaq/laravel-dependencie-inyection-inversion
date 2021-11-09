@@ -20,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app
             ->singleton(
                 NoteRepository::class,
-                NoteRepositoryEloquent::class
+                NoteRepositoryInMemory::class
             );
         $this->app
             ->singleton(
