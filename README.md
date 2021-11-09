@@ -10,4 +10,4 @@ A small example of how to inject and invert dependencies in laravel creating an 
 - php artisan serve
 
 ### ¿How change repository implementation?
-In file app/Providers/AppServiceProvider.php change and import NoteRepositoryInMemory::class by NoteRepositoryEloquent::class and import.
+In file app/Providers/AppServiceProvider.php change and import NoteRepositoryInMemory::class by NoteRepositoryEloquent::class
