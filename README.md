@@ -4,8 +4,8 @@
 A small example of how to inject and invert dependencies in laravel creating an application to save and delete notes. 
 
 ### ¿How install?
-- git clone https://github.com/hcastillaq/laravel-dependency-inyeccion-inversion
-- cd laravel-dependency-inyeccion-inversion
+- git clone https://github.com/hcastillaq/laravel-dependency-injection-inversion
+- cd laravel-dependency-injection-inversion
 - composer update
 - php artisan serve
 
